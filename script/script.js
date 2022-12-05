@@ -20,20 +20,7 @@ function getData() {
             data[2]["o:media"]
         ];
 
-        console.log(arrayChercheur);
-
-
-        document.getElementById("tableBody").innerHTML += "<tr><td>" + arrayChercheur[0] + "</td>"
-            + "<td>" + arrayChercheur[1] + "</td>"
-            + "<td><img src='" + arrayChercheur[2] + "' alt='media " + arrayChercheur[2] + "'" + "</td></tr>";
-
-        document.getElementById("tableBody").innerHTML += "<tr><td>" + arrayResultat[0] + "</td>"
-            + "<td>" + arrayResultat[1] + "</td>"
-            + "<td><img src='" + arrayResultat[2] + "' alt='media " + arrayResultat[2] + "'" + "</td></tr>";
-
-        document.getElementById("tableBody").innerHTML += "<tr><td>" + arrayThese[0] + "</td>"
-            + "<td>" + arrayThese[1] + "</td>"
-            + "<td><img src='" + arrayThese[2] + "' alt='media " + arrayThese[2] + "'" + "</td></tr>";
+        showItems(arrayChercheur, arrayResultat, arrayThese);
         
         /************************************************************/
 /*
@@ -105,20 +92,23 @@ function getData() {
 
 */
 
-        
-/*
-        d3.select("#main")
-            .selectAll("div")
-            .data(data)
-            .enter()
-            .append("div")
-            .attr("id", (d, i) => "id" + i)
-            .html(
-                (d, i) => "Element : " + i + " " + d[0]["o:id"]
-        );
-        */
+
     });
 }
 
+function showItems(arrayChercheur, arrayResultat, arrayThese) {
+
+    document.getElementById("tableBody").innerHTML += "<tr><td>" + arrayChercheur[0] + "</td>"
+        + "<td>" + arrayChercheur[1] + "</td>"
+        + "<td><img src='" + arrayChercheur[2] + "' alt='media " + arrayChercheur[2] + "'" + "</td></tr>";
+
+    document.getElementById("tableBody").innerHTML += "<tr><td>" + arrayResultat[0] + "</td>"
+        + "<td>" + arrayResultat[1] + "</td>"
+        + "<td><img src='" + arrayResultat[2] + "' alt='media " + arrayResultat[2] + "'" + "</td></tr>";
+
+    document.getElementById("tableBody").innerHTML += "<tr><td>" + arrayThese[0] + "</td>"
+        + "<td>" + arrayThese[1] + "</td>"
+        + "<td><img src='" + arrayThese[2] + "' alt='media " + arrayThese[2] + "'" + "</td></tr>";
+}
 
 getData();
