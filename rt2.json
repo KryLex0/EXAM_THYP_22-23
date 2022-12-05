@@ -1,0 +1,66 @@
+{
+    "o:label": "These",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchChercheurNom",
+            "label": "ChercheurNom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchChercheurPrenom",
+            "label": "ChercheurPrenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchTheseTitre",
+            "label": "Th\u00e8seTitre"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchTheseType",
+            "label": "Th\u00e8seType"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchTheseDate",
+            "label": "Th\u00e8seDate"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+        "vocabulary_label": "RelationChercheur",
+        "local_name": "relationCherchThese",
+        "label": "Th\u00e8se"
+    }
+}

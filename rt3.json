@@ -1,0 +1,44 @@
+{
+    "o:label": "Chercheur",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchChercheurNom",
+            "label": "ChercheurNom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchChercheurPrenom",
+            "label": "ChercheurPrenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+            "vocabulary_label": "RelationChercheur",
+            "local_name": "relationCherchChercheurMail",
+            "label": "ChercheurMail"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/azerty.fr\/onto\/relationCherch",
+        "vocabulary_label": "RelationChercheur",
+        "local_name": "relationCherchChercheur",
+        "label": "Chercheur"
+    }
+}
