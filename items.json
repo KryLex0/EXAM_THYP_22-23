@@ -1,0 +1,239 @@
+[
+    {
+        "@context": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api-context",
+        "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/items\/4",
+        "@type": [
+            "o:Item",
+            "relationCherch:relationCherchChercheur"
+        ],
+        "o:id": 4,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/resource_classes\/110",
+            "o:id": 110
+        },
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/resource_templates\/4",
+            "o:id": 4
+        },
+        "o:thumbnail": null,
+        "o:title": null,
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2022-12-05T09:40:08+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2022-12-05T09:40:08+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "relationCherch:relationCherchChercheurNom": [
+            {
+                "type": "literal",
+                "property_id": 193,
+                "property_label": "ChercheurNom",
+                "is_public": true,
+                "@value": "Nom du chercher1"
+            }
+        ],
+        "relationCherch:relationCherchChercheurPrenom": [
+            {
+                "type": "literal",
+                "property_id": 194,
+                "property_label": "ChercheurPrenom",
+                "is_public": true,
+                "@value": "Prenom du chercher1"
+            }
+        ],
+        "relationCherch:relationCherchChercheurMail": [
+            {
+                "type": "literal",
+                "property_id": 195,
+                "property_label": "ChercheurMail",
+                "is_public": true,
+                "@value": "Mail du chercher1"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api-context",
+        "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/items\/5",
+        "@type": [
+            "o:Item",
+            "relationCherch:relationCherchResultat"
+        ],
+        "o:id": 5,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/resource_classes\/111",
+            "o:id": 111
+        },
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/resource_templates\/5",
+            "o:id": 5
+        },
+        "o:thumbnail": null,
+        "o:title": null,
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2022-12-05T09:41:29+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2022-12-05T09:41:29+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "relationCherch:relationCherchChercheurNom": [
+            {
+                "type": "literal",
+                "property_id": 193,
+                "property_label": "ChercheurNom",
+                "is_public": true,
+                "@value": "Nom du chercheur1"
+            }
+        ],
+        "relationCherch:relationCherchChercheurPrenom": [
+            {
+                "type": "literal",
+                "property_id": 194,
+                "property_label": "ChercheurPrenom",
+                "is_public": true,
+                "@value": "Prenom du chercheur1"
+            }
+        ],
+        "relationCherch:relationCherchResultatTitre": [
+            {
+                "type": "literal",
+                "property_id": 196,
+                "property_label": "ResultatTitre",
+                "is_public": true,
+                "@value": "Titre du resultat1"
+            }
+        ],
+        "relationCherch:relationCherchResultatType": [
+            {
+                "type": "literal",
+                "property_id": 198,
+                "property_label": "ResultatType",
+                "is_public": true,
+                "@value": "Type du resultat1"
+            }
+        ],
+        "relationCherch:relationCherchResultatDate": [
+            {
+                "type": "literal",
+                "property_id": 197,
+                "property_label": "ResultatDate",
+                "is_public": true,
+                "@value": "Date du resultat1"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api-context",
+        "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/items\/6",
+        "@type": [
+            "o:Item",
+            "relationCherch:relationCherchThese"
+        ],
+        "o:id": 6,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/resource_classes\/112",
+            "o:id": 112
+        },
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/MASTER\/MASTER2\/omeka-s\/api\/resource_templates\/6",
+            "o:id": 6
+        },
+        "o:thumbnail": null,
+        "o:title": null,
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2022-12-05T09:42:23+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2022-12-05T09:42:23+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "relationCherch:relationCherchChercheurNom": [
+            {
+                "type": "literal",
+                "property_id": 193,
+                "property_label": "ChercheurNom",
+                "is_public": true,
+                "@value": "Nom du chercheur1"
+            }
+        ],
+        "relationCherch:relationCherchChercheurPrenom": [
+            {
+                "type": "literal",
+                "property_id": 194,
+                "property_label": "ChercheurPrenom",
+                "is_public": true,
+                "@value": "Prenom du chercheur1"
+            }
+        ],
+        "relationCherch:relationCherchTheseTitre": [
+            {
+                "type": "literal",
+                "property_id": 199,
+                "property_label": "Th\u00e8seTitre",
+                "is_public": true,
+                "@value": "Titre de la th\u00e8se1"
+            }
+        ],
+        "relationCherch:relationCherchTheseType": [
+            {
+                "type": "literal",
+                "property_id": 201,
+                "property_label": "Th\u00e8seType",
+                "is_public": true,
+                "@value": "Type de la th\u00e8se1"
+            }
+        ],
+        "relationCherch:relationCherchTheseDate": [
+            {
+                "type": "literal",
+                "property_id": 200,
+                "property_label": "Th\u00e8seDate",
+                "is_public": true,
+                "@value": "Date de la th\u00e8se1"
+            }
+        ]
+    }
+]
